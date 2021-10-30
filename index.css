@@ -1,0 +1,40 @@
+.mi-estilo2{
+   position: relative;
+   color: #56e77a;
+   background: #da695a;
+   padding: 40px;
+   border: solid 10px #4c71e9;
+   margin: 50px;
+   height: 200px;
+   width: 200px;
+   top: 50px;
+   left: 50px;
+}
+.celdas{
+   font-size: 50px;
+   height: 80px;
+   width: 200px;
+   text-align: center;
+}
+
+.select-ganador{
+   font-size: 50px;
+   height: 80px;
+   width: 185px;
+   text-align: center;
+   border: solid 10px rgb(70, 93, 197);
+}
+
+.cuadricula td{
+   width: 20px;
+   height: 20px;
+   border: solid 2px rgb(70, 93, 197);
+}
+.subrallar{
+   background: #4c71e9;
+}
+.subrallarComida{
+   background: #092272;
+}
+
+

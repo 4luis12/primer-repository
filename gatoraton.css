@@ -1,0 +1,18 @@
+td{
+    align-items: center;
+}
+.celdas{
+    font-size: 50px;
+    height: 80px;
+    width: 200px;
+    text-align: center;
+}
+
+
+.select-ganador{
+    font-size: 50px;
+    height: 80px;
+    width: 185px;
+    text-align: center;
+    border: solid 10px rgb(70, 93, 197);
+}
