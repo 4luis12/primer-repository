@@ -11,6 +11,8 @@ function resultado1() {
 
    res.innerHTML = stringTexto + stringVarLocal;
 
+
+   
 }
 
 function resultado2() {
