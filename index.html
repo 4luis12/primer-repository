@@ -1,190 +1,191 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ejemplo 1</title>
-    <link rel="stylesheet" href="index.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <title>Hello, world!</title>
 </head>
 
 <body>
-    <h2 class="mi-estilo1">Declarar variables</h2>
-    <h2 class="mi-estilo1">Declarar variables</h2>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <div class="mi-estilo2" id="principal"> </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="container">
+    <h1 class="text-center">Hello, world!</h1>
+  </div>
 
-    <div class="mi-estilo2" id="secundario">
+
+  <div class="container">
+    <div class="row justify-content-center">
+
+      <img src="https://i.workana.com/wp-content/uploads/2019/09/responsive-design-glosario-workana-850x400.jpg" alt=""
+        srcset="" class="img-fluid">
 
     </div>
+    <div class="row subrrallar-div">
+      <div class="col-12 col-md-6">
+        <img src="https://i.workana.com/wp-content/uploads/2019/09/responsive-design-glosario-workana-850x400.jpg"
+          alt="" srcset="" class="img-fluid">
+      </div>
+      <div class="col-12 col-md-6">
+        <p class="text-center">da clic para mostrar la imagen</p>
+        <div class="row justify-content-center">
 
-    <div class="mi-estilo3">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            mostrar...
+          </button>
+        </div>
+      </div>
+      <div class="col-12">
 
+      </div>
     </div>
-
-    <button onclick="resultado1()"> Resultado 1</button>
-
-    <button onclick="resultado2()"> Resultado 2</button>
-
-    <button onclick="arreglos()">Arreglos</button>
-
-
-    <table>
-        <tr>
-            <td><input maxlength="1" onkeyup="leerTablero()" id="0-0" class="celdas" type="text" value="">   </td>
-            <td><input maxlength="1" onkeyup="leerTablero()" id="0-1" class="celdas" type="text" value=""></td>
-            <td><input maxlength="1" onkeyup="leerTablero()" id="0-2" class="celdas" type="text" value=""></td>
-        </tr>
-        <tr>
-            <td><input maxlength="1" onkeyup="leerTablero()" id="1-0" class="celdas" type="text" value=""></td>
-            <td><input maxlength="1" onkeyup="leerTablero()" id="1-1" class="celdas" type="text" value=""></td>
-            <td><input maxlength="1" onkeyup="leerTablero()" id="1-2" class="celdas" type="text" value=""></td>
-        </tr>
-        <tr>
-            <td><input maxlength="1" onkeyup="leerTablero()" id="2-0" class="celdas" type="text" value=""></td>
-            <td><input maxlength="1" onkeyup="leerTablero()" id="2-1" class="celdas" type="text" value=""></td>
-            <td><input maxlength="1" onkeyup="leerTablero()" id="2-2" class="celdas" type="text" value=""></td>
-        </tr>
-
-    </table>
+    <div class="row subrrallar-div">
+      <div class="col-12">
+        One of three columns
+      </div>
+      <div class="col-2">
+        One of three columns
+      </div>
+      <div class="col-2">
+        One of three columns
+      </div>
+      <div class="col-2">
+        One of three columns
+      </div>
+      <div class="col-2">
+        One of three columns
+      </div>
+      <div class="col-2">
+        One of three columns
+      </div>
+    </div>
+  </div>
 
 
-    <button onclick="reiniciar()">Reiniciar juego</button>
+  <!-- Modal -->
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row ">
 
+            <img src="https://i.workana.com/wp-content/uploads/2019/09/responsive-design-glosario-workana-850x400.jpg"
+              alt="" srcset="" class="img-fluid">
 
-    <h1 id="mensaje"></h1>
-    <table class="cuadricula" id="tableroSerpiente">
-        <tr>
-            <td onClick="onValorElemento(this)" id="serpeinte-1-1">1,1</td>
-            <td onClick="onValorElemento(this)">1,2</td>
-            <td onClick="onValorElemento(this)">1,3</td>
-            <td onClick="onValorElemento(this)">1,4</td>
-            <td onClick="onValorElemento(this)">1,5</td>
-            <td onClick="onValorElemento(this)">1,6</td>
-            <td onClick="onValorElemento(this)">1,7</td>
-            <td onClick="onValorElemento(this)">1,8</td>
-            <td onClick="onValorElemento(this)">1,9</td>
-            <td onClick="onValorElemento(this)">1,10</td>
-        </tr>
-        <tr>
-            <td>2,1</td>
-            <td>2,2</td>
-            <td>2,3</td>
-            <td>2,4</td>
-            <td>2,5</td>
-            <td>2,6</td>
-            <td>2,7</td>
-            <td>2,8</td>
-            <td>2,9</td>
-            <td>2,10</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    </table>
-<button onclick="iniciarJuegoSerpiente()">Iniciar Juego</button>
+  <!-- Modal -->
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
-    <script src="./index.js"></script>
 
+  <!-- Optional JavaScript; choose one of the two! -->
 
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
 </body>
-
 
 </html>
