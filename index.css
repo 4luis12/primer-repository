@@ -10,5 +10,14 @@
 .container-edit{
    background: #1546e7bb;
 }
-
+.carusel-edit{
+   max-height: 800px
+}
+.footer{
+   background: #325be0;
+}
+.aling-final{
+   color: #464646;
+   text-align: right;
+}
 
